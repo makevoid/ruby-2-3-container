@@ -1,6 +1,6 @@
 # Ruby from Source Docker Container
 
-Installation of Ruby 2.3 from source,  contains a test file to test one feature available only in 2.3, Immutable Strings
+Installation of Ruby 2.3 from source, contains a test file to test one feature available only in 2.3, Immutable Strings
 
 #### You can both get the container through Docker Hub or [Build & Run](#clone) it yourself from the Dockerfile in this repo
 
@@ -31,7 +31,7 @@ Alternatively, clone, build & run based on the Dockerfile contained in this repo
 
 ### Clone 
 
-    git clone http://github.com/makevoid/ruby-from-source-container && cd ruby-from-source-container
+    git clone http://github.com/makevoid/ruby-2-3-container && cd ruby-from-source-container
 
 ### Build
 
