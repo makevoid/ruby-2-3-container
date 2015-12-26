@@ -2,11 +2,15 @@
 
 Installation of Ruby 2.3 from source,  contains a test file to test one feature available only in 2.3, Immutable Strings
 
-#### You can both get the container through Docker Hub or [Build & Run](#Clone) it yourself from the Dockerfile in this repo
+#### You can both get the container through Docker Hub or [Build & Run](#clone) it yourself from the Dockerfile in this repo
 
-### Get from Docker Hub and Run 
+### Pull the container from DockerHub and Run it
+
+#### Pull
 
     docker pull makevoid/ruby2.3
+    
+#### Run    
     
     docker run makevoid/ruby2.3 ruby --version
     
@@ -22,6 +26,8 @@ then:
 ---
 
 Alternatively, clone, build & run based on the Dockerfile contained in this repo:
+
+## Clone, Build & Run
 
 ### Clone 
 
