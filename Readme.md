@@ -8,22 +8,25 @@ Installation of Ruby 2.3 from source, contains a test file to test one feature a
 
 #### Pull
 
-    docker pull makevoid/ruby2.3
+    docker pull makevoid/ruby-2.3
     
 #### Run    
     
-    docker run makevoid/ruby2.3 ruby --version
+    docker run makevoid/ruby-2.3 ruby --version
     
 (should be 2.3.0)    
     
 then:     
     
-    docker run -v $(pwd):/app makevoid/ruby2.3 ruby --enable-frozen-string-literal /app/your_app.rb
+    docker run -v $(pwd):/app makevoid/ruby-2.3 ruby --enable-frozen-string-literal /app/your_app.rb
     
 
 ( I suggest running this simple test file: https://github.com/makevoid/ruby-from-source-container/blob/master/test.rb and modify it to try immutable strings and the new ruby behaviour )
 
 ---
+
+### Docke Hub container page: https://hub.docker.com/r/makevoid/ruby-2.3
+
 
 Alternatively, clone, build & run based on the Dockerfile contained in this repo:
 
@@ -45,6 +48,7 @@ It will run `test.rb` that contains a small example of immutable strings warning
 
 
 ---
+
 
 
 See the Dockerfile for more infos: https://github.com/makevoid/ruby-from-source-container/blob/master/Dockerfile
